@@ -1,10 +1,10 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from core.update import BasicSelectiveMultiUpdateBlock, SpatialAttentionExtractor, ChannelAttentionEnhancement
-from core.extractor import MultiBasicEncoder, Feature
-from core.geometry import Combined_Geo_Encoding_Volume
-from core.submodule import *
+from selective_igev.core.update import BasicSelectiveMultiUpdateBlock, SpatialAttentionExtractor, ChannelAttentionEnhancement
+from selective_igev.core.extractor import MultiBasicEncoder, Feature
+from selective_igev.core.geometry import Combined_Geo_Encoding_Volume
+from selective_igev.core.submodule import *
 
 
 try:
