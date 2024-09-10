@@ -6,7 +6,7 @@ authors = ["Xianqi Wang, Gangwei Xu, Hao Jia, Xin Yang"]
 license = "MIT"
 readme = "README.md"
 packages = [
-    { include = "selective-igev" }
+    { include = "selective_igev" }
 ]
 [tool.poetry.dependencies]
 python = "^3.10"
