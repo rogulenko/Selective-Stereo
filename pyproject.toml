@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "selective-stereo"
+version = "0.1.0"
+description = ""
+authors = ["Xianqi Wang, Gangwei Xu, Hao Jia, Xin Yang"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.4.1"
+torchvision = "^0.19.1"
+tqdm = "^4.66.5"
+timm = "0.5.4"
+opencv-python = "^4.10.0.84"
+scikit-image = "^0.24.0"
+matplotlib = "^3.9.2"
+opt-einsum = "^3.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
