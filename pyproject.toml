@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "selective-stereo"
+name = "selective-igev"
 version = "0.1.0"
 description = ""
 authors = ["Xianqi Wang, Gangwei Xu, Hao Jia, Xin Yang"]
